@@ -1,0 +1,43 @@
+{
+	"Metadata": {
+		"title": "Next.js Bản mẫu",
+		"description": "Một bản mẫu dành cho Reactjs app sử dụng nextjs, next-intl, zustand, antd, tailwindcss"
+	},
+	"ErrorPage": {
+		"title": "Đã xảy ra lỗi!",
+		"description": "<p>Rất tiếc, chúng tôi đã gặp phải lỗi.</p><p>Bạn có thể thử <retry>tải lại trang</retry> bạn đang truy cập.</p>",
+		"btnPrimary": "Thử lại",
+		"btnSecondary": "Hỗ trợ"
+	},
+	"NotFoundPage": {
+		"title": "Không tìm thấy trang",
+		"text": "Xin lỗi, trang bạn đang tìm kiếm không thể tìm thấy hoặc đã bị xóa.",
+		"btnPrimary": "Trở về trang chủ",
+		"btnSecondary": "Hỗ trợ"
+	},
+	"LandingPage": {
+		"Hero": {
+			"title": "Nắm vững các nguyên tắc cơ bản của khoa học máy tính",
+			"text": "Học viện IO là một nền tảng học tập trực tuyến cung cấp các khóa học và dự án tương tác về Khoa học Máy tính cho học sinh trung học và người lớn thuộc mọi thành phần."
+		}
+	},
+	"LoginPage": {
+		"Metadata": {
+			"title": "Đăng nhập"
+		},
+		"Content": {
+			"title": "Nắm vững các nguyên tắc cơ bản của khoa học máy tính",
+			"text": "Học viện IO là một nền tảng học tập trực tuyến cung cấp các khóa học và dự án tương tác về Khoa học Máy tính cho học sinh trung học và người lớn thuộc mọi thành phần."
+		}
+	},
+	"LessonsPage": {
+		"Metadata": {
+			"title": "Bài Học",
+			"description": "Với khóa học khoa học máy tính của chúng tôi, Học viện IO mang đến cho bạn kiến thức và sự tự tin cần thiết để bạn vượt trội trong lĩnh vực công nghệ phần mềm và hơn thế nữa."
+		},
+		"Content": {
+			"title": "Mastering computer science fundamentals",
+			"text": "The IO Academy is an online learning platform that provides interactive courses and projects in Computer Science to high schoolers and adults of all backgrounds."
+		}
+	}
+}

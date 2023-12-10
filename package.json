@@ -1,0 +1,72 @@
+{
+  "name": "boilerplate-nextjs-antd-tailwindcss",
+  "version": "0.1.0",
+  "description": "A boilerplate for Reactjs app using nextjs, next-intl, next-auth, zustand, antd, tailwindcss",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tientran0019/boilerplate-nextjs-antd-tailwindcss.git"
+  },
+  "author": "Tien Tran <tientran0019@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "reactjs",
+    "boilerplate",
+    "zustand",
+    "nextjs",
+    "next-intl",
+    "next-auth",
+    "antd",
+    "tailwindcss"
+  ],
+  "scripts": {
+    "clean": "rimraf .next/ out/",
+    "dev": "env-cmd next dev",
+    "export": "env-cmd -f .env.production --fallback --silent next export",
+    "build": "env-cmd -f .env.production --fallback --silent next build",
+    "build:staging": "env-cmd -f .env.staging --fallback --silent next build",
+    "start": "env-cmd -f .env.production --fallback --silent next start",
+    "start:staging": "env-cmd -f .env.staging --fallback --silent next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ant-design/cssinjs": "^1.17.0",
+    "@ant-design/icons": "^5.2.6",
+    "antd": "5.9.0",
+    "clsx": "^2.0.0",
+    "dotenv": "^16.3.1",
+    "immer": "^10.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "next": "13.4.19",
+    "next-auth": "^4.23.1",
+    "next-intl": "^2.20.0",
+    "next-themes": "^0.2.1",
+    "path-to-regexp": "^6.2.1",
+    "plyr-react": "^5.3.0",
+    "prop-types": "^15.8.1",
+    "query-string": "^8.1.0",
+    "ramda": "^0.29.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.10.1",
+    "tailwind-merge": "^1.14.0",
+    "zustand": "^4.4.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.9",
+    "@types/node": "20.6.0",
+    "@types/react": "18.2.21",
+    "autoprefixer": "^10.4.15",
+    "cssnano": "^6.0.1",
+    "env-cmd": "^10.1.0",
+    "eslint": "^8.48.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-next": "13.4.19",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "postcss": "^8.4.29",
+    "sharp": "^0.32.5",
+    "tailwindcss": "^3.3.3",
+    "typescript": "5.2.2"
+  }
+}
